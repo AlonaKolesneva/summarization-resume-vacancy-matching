@@ -3,9 +3,9 @@ import PyPDF2
 import os
 from flashtext.keyword import KeywordProcessor
 
-doc_folder = 'C:\\Users\\alkur\\Downloads\\Telegram Desktop\\text\\docx1'
-pdf_folder = 'C:\\Users\\alkur\\Downloads\\Telegram Desktop\\text\\pdf'
-f = open('C:\\Users\\alkur\\Desktop\\titles_combined.txt') # file from find-job-titles
+doc_folder = '..\\Downloads\\Telegram Desktop\\text\\docx1'
+pdf_folder = '..\\Downloads\\Telegram Desktop\\text\\pdf'
+f = open(..\\Desktop\\titles_combined.txt') # file from find-job-titles
 list_job = []
 for line in f:
     list_job.append(line.lower()) # to lowerCase
